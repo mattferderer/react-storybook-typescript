@@ -1,0 +1,15 @@
+{
+    "extends": ["tslint-react"],
+    "rules": {
+		"no-unused-expression": true,
+		"no-duplicate-variable": true,
+		"no-unused-variable": true,
+		"curly": true,
+		"member-access": false,
+		"semicolon": [true, "never"],
+		"max-line-length": [true, 200],
+		"no-unnecessary-type-assertion": true,
+		"object-literal-sort-keys": false,
+		"prefer-for-of": false
+    }
+}
